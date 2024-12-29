@@ -19,7 +19,7 @@ function love.load()
 end
 
 function love.draw()
-    love.graphics.clear(0.5, 0.5, 0.5)
+    love.graphics.clear(0.95, 0.95, 0.95)
     deck:draw()
 end
 

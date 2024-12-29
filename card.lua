@@ -96,7 +96,7 @@ end
 function Card:draw()
     self:update_movement(dt)
     love.graphics.draw(card_sprite, self.transform.x, self.transform.y)
-    love.graphics.print(self.id, self.transform.x + CARD_WIDTH / 2, self.transform.y + CARD_HEIGHT / 2)
+    love.graphics.print("Card #\n   " .. self.id, self.transform.x + 25, self.transform.y + 60, 0, 1.6)
 end
 
 return Card
