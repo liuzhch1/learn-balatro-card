@@ -14,8 +14,9 @@ function queue_sound(sound, delay, pitch)
 end
 
 function love.load()
-    deck = Deck.new(screen_width / 2 - 120, screen_height / 2 - 168)
+    deck = Deck.new(screen_width / 2 - 60, screen_height / 2 - 168)
     card_drop = love.audio.newSource("card_drop.wav", "static")
+    love.window.setTitle("Card Game")
 end
 
 function love.draw()
