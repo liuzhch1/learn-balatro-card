@@ -1,3 +1,7 @@
+<video width="500" controls>
+  <source src="demo.mp4" type="video/mp4">
+</video>
+
 Learning Love2D and Lua by making a card game.
 
 From the tutorial: [The game of the year was written in Lua](https://www.youtube.com/watch?v=YntG_mSE0d4)
