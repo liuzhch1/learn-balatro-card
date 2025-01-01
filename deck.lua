@@ -1,8 +1,8 @@
-local Card = require("card")
+require("card")
 
 local DECK_SIZE = 52
 
-local Deck = {}
+Deck = {}
 Deck.__index = Deck
 function Deck.new(x, y)
     local self = setmetatable({

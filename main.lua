@@ -1,4 +1,4 @@
-local Deck = require("deck")
+require("deck")
 
 local screen_width = love.graphics.getWidth()
 local screen_height = love.graphics.getHeight()

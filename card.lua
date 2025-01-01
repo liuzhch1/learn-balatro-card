@@ -3,7 +3,7 @@ local CARD_HEIGHT = 168
 
 local card_sprite = love.graphics.newImage("card.png")
 
-local Card = {}
+Card = {}
 Card.__index = Card
 
 function Card.new(deck, id, x, y, target_x, target_y)
