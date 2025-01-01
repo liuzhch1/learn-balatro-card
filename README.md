@@ -7,3 +7,8 @@ From the tutorial: [The game of the year was written in Lua](https://www.youtube
 Watch the demo with sound on ↓
 
 https://github.com/user-attachments/assets/692b2c0d-8b1a-4cb8-8fd8-bc9c6e29fcee
+
+#### How to run
+
+- download the Love2D from https://love2d.org/
+- `love .`
